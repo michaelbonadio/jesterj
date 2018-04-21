@@ -164,12 +164,12 @@ public class FetchUrl implements DocumentProcessor {
     }
 
     public FetchUrl.Builder withConnectionTimeOut (int timeOut) {
-      getObj().ConnectionTimeOut = timeOut;
+      getObj().connectionTimeOut = timeOut;
       return this;
     }
 
     public FetchUrl.Builder withReadTimeOut (int timeOut) {
-      getObj().ReadTimeOut = timeOut;
+      getObj().readTimeOut = timeOut;
       return this;
     }
 
